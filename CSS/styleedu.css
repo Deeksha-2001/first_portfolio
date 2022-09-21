@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.main_body{
+    padding-top: 35px;
+}
+.edu_head img{
+    margin-left: 46px;
+    padding-top: 28px;
+    cursor: pointer;
+}
+.soc_links button{
+    font-size: 25px;
+    border: none;   
+}
+.soc_links{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 160px;
+}
+.social_logos{
+    padding-right: 100px;
+    cursor: pointer;
+}
+.social_logos >a{
+    padding-left: 80px;
+}
+.social_logos img:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+.edu_head h1{
+    font-size: 40px;
+    padding-left: 650px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.edu_head img:hover{
+    transform: scale(1.1);
+}
+.soc_links{
+    padding-top: 80px;
+}
+#box{
+    padding-top: 70px;
+    padding-left: 160px;
+    width: 1400px;
+}
+#border_bot{
+    border-bottom: 1px solid white;
+    border-color: black;
+}
+.cont_head h1{
+    padding-top: 50px;
+    font-size: 40px;
+    padding-left: 650px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.cont_con{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.cont_con h4{
+    padding-left: 15px;
+    font-size: 25px;
+}
+.fir_det{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.sec_det{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.thir_det{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.cont_con span{
+    color: rgb(191, 173, 69);
+}
+.cont_con>div{
+    padding-left: 106px;
+}
+
+.material-symbols-outlined {
+    margin-left: 40px;
+    margin-top: 10px;
+   }
+   
+   .material-symbols-outlined:hover {
+     transform: scale(2);
+     cursor: pointer;
+   }
+   
+   @media screen  and (min-width: 300px) {
+    .main_body{
+        padding-top: 5px;
+    }
+    .edu_head img{
+        margin-left: 15px;
+        padding-top: 10px;
+        display: flex;
+    }
+
+    .edu_head h1{
+        font-size: 30px;
+        padding-left: 100px;
+        
+    }
+  
+}
+   
